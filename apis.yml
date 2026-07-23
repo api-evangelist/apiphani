@@ -1,8 +1,30 @@
 aid: apiphani
 name: Apiphani
-description: Apiphani is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Apiphani is a technology-enabled application managed-services company dedicated to helping
+  businesses minimize the effort and risk of running their tier-1, mission-critical applications.
+  It combines decades of enterprise operations experience with intelligent automation and machine
+  learning to drive efficiency and reliability across SAP environments (S/4HANA, Business Suite,
+  Cloud ERP) running on AWS, Azure, and Google Cloud. Services span application technical management
+  (ABAP, SAP Basis, application security), application hosting (ALM/APM), application infrastructure
+  (auto-scaling, HA/DR), security management, and cloud migration and optimization. Apiphani's
+  Luumen platform is an AI-native observability product with "Deep Automation" that detects and
+  resolves issues before users notice, unifying application telemetry, security, and self-healing.
+  The company is certified SOC 2 Type 2, ISO/IEC 27001:2022, and CSA STAR, and is backed by
+  Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/apiphani/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.apiphani.io/wp-content/uploads/2024/07/shutterstock_791097598-1_r1_c1.webp-scaled-1.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,6 +36,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Managed Services
+- SAP
+- Application Management
+- Cloud
+- Observability
+- AIOps
+- Enterprise Software
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.apiphani.io/
+- type: Blog
+  url: https://www.apiphani.io/category/blog/
+- type: TermsOfService
+  url: https://www.apiphani.io/terms/
+- type: PrivacyPolicy
+  url: https://www.apiphani.io/apiphani-privacy-policy/
+- type: Compliance
+  url: https://www.apiphani.io/
+- type: Conformance
+  url: conformance/apiphani-conformance.yml
+- type: DomainSecurity
+  url: security/apiphani-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

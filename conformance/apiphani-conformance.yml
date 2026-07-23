@@ -1,0 +1,22 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.apiphani.io/
+note: >-
+  Apiphani is a technology-enabled application managed-services company (SAP-focused);
+  it does not publish a public API, so cross-cutting API standards (OAuth2/OIDC/RFC9457/etc.)
+  are not applicable. This file captures the compliance/security certifications the company
+  publishes on its public website.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 certification published on apiphani.io
+- id: iso-27001-2022
+  conforms: true
+  evidence: ISO/IEC 27001:2022 certification published on apiphani.io
+- id: csa-star
+  conforms: true
+  evidence: CSA STAR certification published on apiphani.io
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- CSA STAR
